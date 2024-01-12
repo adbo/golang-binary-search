@@ -14,6 +14,20 @@ Number Index Service is a web application written in Go that allows users to sea
 - Go (version 1.15 or later)
 - A text file containing sorted numbers (named `input.txt` by default)
 
+## Dependencies
+
+To run this project, the following external packages are required:
+
+- **Viper**: A package used for loading application configurations. [More information](https://github.com/spf13/viper).
+- **Logrus**: An advanced logging package for Go. [More information](https://github.com/sirupsen/logrus).
+- **Testify**: A package used for simplifying the writing of unit tests. [More information](https://github.com/stretchr/testify).
+
+You can install all required dependencies by running the following command:
+
+```bash
+go get -u github.com/spf13/viper github.com/sirupsen/logrus github.com/stretchr/testify
+```
+
 ### Running the Service
 1. To start the service, in the project folder run:
 ```go
