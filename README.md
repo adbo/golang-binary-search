@@ -16,7 +16,8 @@ Number Index Service is a web application written in Go that allows users to sea
 
 ### Running the Service
 1. To start the service, in the project folder run:
-```go run main.go
+```go
+go run main.go
 
 2. The service will start on the default port (e.g., 8080). You can access the service at `http://localhost:8080`.
 
@@ -31,4 +32,5 @@ You can configure the service by editing the `config.yaml` file. Available confi
 
 ## Testing
 To run the unit tests, use the following command:
-```make test
+```
+make test
